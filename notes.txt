@@ -1,5 +1,4 @@
-[rainbow]==========  TO DO   ==========[/rainbow]
-@@ todo - not get to focused, this is supposed to be general purpose for reuse.@@
+[rainbow]==========  Game Juice   ==========[/rainbow]
 
 - Add 'Game Juice' aka 'Game Feel' (probably another github repo)
 	[ ] Weapon Sound
@@ -12,4 +11,4 @@
 	[ ] Feedback Knockback
 	[ ] UI Healthbar Animation
 	[ ] Camera Shake
-	[ ] Camera Cinematic Attack finisher (probably not this one)
+	[ ] Camera Cinematic Attack finisher 
