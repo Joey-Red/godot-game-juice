@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://can6v4kxdrge2"]
+
+[ext_resource type="PackedScene" uid="uid://cixgq6lfcf62l" path="res://Enemies/DummyEnemy/dummy_enemy.tscn" id="1_4k2gg"]
+[ext_resource type="Resource" uid="uid://djb54udkb04ta" path="res://resources/SkeleMage_stats.tres" id="2_ipqtj"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_y7v25"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ipqtj"]
+
+[node name="SkeleMage" node_paths=PackedStringArray("health_component", "movement_component", "combat_component", "visuals_container", "collision_shape") instance=ExtResource("1_4k2gg")]
+stats = ExtResource("2_ipqtj")
+health_component = NodePath("Components/HealthComponent")
+movement_component = NodePath("Components/MovementComponent")
+combat_component = NodePath("Components/EnemyCombatComponent")
+visuals_container = NodePath("CollisionShape3D")
+collision_shape = NodePath("CollisionShape3D")
+
+[node name="EnemyHealthbar3D" parent="." index="1"]
+texture = SubResource("ViewportTexture_y7v25")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="4"]
+shape = SubResource("CapsuleShape3D_ipqtj")

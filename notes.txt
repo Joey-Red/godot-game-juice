@@ -1,0 +1,15 @@
+[rainbow]==========  TO DO   ==========[/rainbow]
+@@ todo - not get to focused, this is supposed to be general purpose for reuse.@@
+
+- Add 'Game Juice' aka 'Game Feel' (probably another github repo)
+	[ ] Weapon Sound
+	[ ] Weapon Trail/VFX
+	[ ] Feedback / Hitflash
+	[ ] Feedback / HitReact
+	[ ] Impact VFX
+	[ ] Impact Sounds
+	[ ] Feedback HitStop
+	[ ] Feedback Knockback
+	[ ] UI Healthbar Animation
+	[ ] Camera Shake
+	[ ] Camera Cinematic Attack finisher (probably not this one)

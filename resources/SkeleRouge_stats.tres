@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EnemyStats" load_steps=3 format=3 uid="uid://ckyrbqqoec1vv"]
+
+[ext_resource type="PackedScene" uid="uid://cp4gwmr456ate" path="res://Enemies/EnemyBaseScenes/SkeleRouge_base.tscn" id="1_5p3cn"]
+[ext_resource type="Script" uid="uid://cajvw2t2hbwrs" path="res://resources/enemy_stats.gd" id="1_r80yw"]
+
+[resource]
+script = ExtResource("1_r80yw")
+move_speed = 6.0
+acceleration = 12.0
+model_scene = ExtResource("1_5p3cn")
+scale = 0.6
+model_rotation_y = 180.0
+anim_idle = "Idle_A"
+anim_move = "Running_A"
+anim_attack = "Throw"
+anim_death = "Death_A"
+anim_hit = "Hit_A"
+metadata/_custom_type_script = "uid://cajvw2t2hbwrs"
