@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="EffectSound" load_steps=3 format=3 uid="uid://bdpj4h1vr1kb1"]
+
+[ext_resource type="Script" uid="uid://s4qfk03v5vkr" path="res://JuiceSystem/Effects/Effect_Sound.gd" id="1_way8e"]
+[ext_resource type="AudioStream" uid="uid://b3dxd7l5lifnu" path="res://assets/Sounds/smack.wav" id="2_pndqd"]
+
+[resource]
+script = ExtResource("1_way8e")
+stream = ExtResource("2_pndqd")
+pitch_randomness = 0.1
+metadata/_custom_type_script = "uid://s4qfk03v5vkr"

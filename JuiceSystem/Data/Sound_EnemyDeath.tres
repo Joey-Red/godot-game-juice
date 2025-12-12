@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="EffectSound" load_steps=3 format=3 uid="uid://dtqiu53kbi8u7"]
+
+[ext_resource type="Script" uid="uid://s4qfk03v5vkr" path="res://JuiceSystem/Effects/Effect_Sound.gd" id="1_pmpa4"]
+[ext_resource type="AudioStream" uid="uid://bv6qipv6p8i2x" path="res://assets/Sounds/death.wav" id="2_7w25t"]
+
+[resource]
+script = ExtResource("1_pmpa4")
+stream = ExtResource("2_7w25t")
+pitch_randomness = 0.2
+metadata/_custom_type_script = "uid://s4qfk03v5vkr"

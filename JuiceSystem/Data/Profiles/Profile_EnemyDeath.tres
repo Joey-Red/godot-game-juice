@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="JuiceProfile" load_steps=4 format=3 uid="uid://bmvvk7wkkt5by"]
+
+[ext_resource type="Script" uid="uid://cwnq3wkfbc7qc" path="res://JuiceSystem/Resources/JuiceEffect.gd" id="1_ujcqd"]
+[ext_resource type="Resource" uid="uid://dtqiu53kbi8u7" path="res://JuiceSystem/Data/Sound_EnemyDeath.tres" id="2_mae1j"]
+[ext_resource type="Script" uid="uid://bcl7vmsmjsqqb" path="res://JuiceSystem/Resources/JuiceProfile.gd" id="2_njvmy"]
+
+[resource]
+script = ExtResource("2_njvmy")
+effects = Array[ExtResource("1_ujcqd")]([ExtResource("2_mae1j")])
+metadata/_custom_type_script = "uid://bcl7vmsmjsqqb"
