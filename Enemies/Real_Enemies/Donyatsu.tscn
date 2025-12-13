@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://beeu2vt163dw0"]
+[gd_scene load_steps=6 format=3 uid="uid://beeu2vt163dw0"]
 
 [ext_resource type="PackedScene" uid="uid://cixgq6lfcf62l" path="res://Enemies/DummyEnemy/dummy_enemy.tscn" id="1_ot37s"]
 [ext_resource type="Resource" uid="uid://c2pwhvtkbeiwf" path="res://resources/Donyatsu_stats.tres" id="2_8cy67"]
+[ext_resource type="Resource" uid="uid://busqvifsqjh3b" path="res://JuiceSystem/Data/Profiles/Profile_DonyHit.tres" id="3_4468s"]
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_y7v25"]
 viewport_path = NodePath("SubViewport")
@@ -21,6 +22,9 @@ collision_shape = NodePath("CollisionShape3D")
 [node name="EnemyHealthbar3D" parent="." index="1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.6970363, 0)
 texture = SubResource("ViewportTexture_y7v25")
+
+[node name="HitFeedback" parent="Components" index="4"]
+profile = ExtResource("3_4468s")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." index="4"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8675699, 0)

@@ -1,8 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://dqxrlmvwm22c7"]
+[gd_scene load_steps=3 format=3 uid="uid://dqxrlmvwm22c7"]
 
 [ext_resource type="ArrayMesh" uid="uid://d33t1oeff0eho" path="res://assets/Donyatsu/extracted/Donyatsu.Cubo.mesh" id="1_bhxih"]
 [ext_resource type="Skin" uid="uid://rfc1qaa7s41r" path="res://assets/Donyatsu/extracted/Donyatsu.Cubo.skin.tres" id="2_mtsqa"]
-[ext_resource type="Material" uid="uid://cu1vsc0nini2f" path="res://assets/Donyatsu/Materials/GatomMat1.material" id="3_xph2c"]
 
 [node name="Donyatsu" type="Node3D"]
 
@@ -47,12 +46,11 @@ blend_shapes/Surprised = 0.0
 blend_shapes/_Tired = 0.0
 blend_shapes/_Tongue = 0.0
 blend_shapes/_Sad = 0.0
-"blend_shapes/_Eyes  pucker" = 0.0
-blend_shapes/_Skirt = 1.0
+"blend_shapes/_Eyes  pucker" = 0.46977
+blend_shapes/_Skirt = 0.0
 blend_shapes/_Tie = 0.0
 blend_shapes/_Bow = 0.0
-"blend_shapes/_Eyes closed" = 0.0
+"blend_shapes/_Eyes closed" = 0.679
 "blend_shapes/_Schemy eyes" = 0.0
 "blend_shapes/_Wink L" = 0.0
 "blend_shapes/_Wink R" = 0.0
-surface_material_override/0 = ExtResource("3_xph2c")

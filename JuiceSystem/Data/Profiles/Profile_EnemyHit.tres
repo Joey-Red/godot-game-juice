@@ -1,10 +1,11 @@
-[gd_resource type="Resource" script_class="JuiceProfile" load_steps=4 format=3 uid="uid://o2hiqvcevlcr"]
+[gd_resource type="Resource" script_class="JuiceProfile" load_steps=5 format=3 uid="uid://o2hiqvcevlcr"]
 
 [ext_resource type="Script" uid="uid://cwnq3wkfbc7qc" path="res://JuiceSystem/Resources/JuiceEffect.gd" id="1_5cp1q"]
 [ext_resource type="Script" uid="uid://bcl7vmsmjsqqb" path="res://JuiceSystem/Resources/JuiceProfile.gd" id="2_3b0el"]
 [ext_resource type="Resource" uid="uid://bdpj4h1vr1kb1" path="res://JuiceSystem/Data/Sound_EnemyHit.tres" id="2_b4wvq"]
+[ext_resource type="Resource" uid="uid://bcj1enut0oikd" path="res://JuiceSystem/Data/Flash_Standard.tres" id="3_b4wvq"]
 
 [resource]
 script = ExtResource("2_3b0el")
-effects = Array[ExtResource("1_5cp1q")]([ExtResource("2_b4wvq")])
+effects = Array[ExtResource("1_5cp1q")]([ExtResource("2_b4wvq"), ExtResource("3_b4wvq")])
 metadata/_custom_type_script = "uid://bcl7vmsmjsqqb"

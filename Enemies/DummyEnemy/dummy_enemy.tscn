@@ -14,7 +14,7 @@
 [ext_resource type="Script" uid="uid://h3ksuyk355h3" path="res://Enemies/States/EnemyAttack.gd" id="9_161yo"]
 [ext_resource type="Script" uid="uid://bv50gb75vjlid" path="res://Enemies/States/EnemyDeath.gd" id="10_8xkya"]
 [ext_resource type="Script" uid="uid://ce7nw8xd2xfio" path="res://Enemies/States/EnemyHit.gd" id="11_yrh3s"]
-[ext_resource type="Script" path="res://Enemies/States/EnemyWander.gd" id="12_wq81r"]
+[ext_resource type="Script" uid="uid://bq23aja4h501v" path="res://Enemies/States/EnemyWander.gd" id="12_wq81r"]
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_y7v25"]
 viewport_path = NodePath("SubViewport")

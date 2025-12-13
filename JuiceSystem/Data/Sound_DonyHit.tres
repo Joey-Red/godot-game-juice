@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="EffectSound" load_steps=3 format=3 uid="uid://c3ekgbukpcu80"]
+
+[ext_resource type="Script" uid="uid://s4qfk03v5vkr" path="res://JuiceSystem/Effects/Effect_Sound.gd" id="1_yc031"]
+[ext_resource type="AudioStream" uid="uid://ckpc0x52hakrc" path="res://assets/Sounds/squish_hit.wav" id="2_0uk5c"]
+
+[resource]
+script = ExtResource("1_yc031")
+stream = ExtResource("2_0uk5c")
+pitch_randomness = 0.1
+metadata/_custom_type_script = "uid://s4qfk03v5vkr"

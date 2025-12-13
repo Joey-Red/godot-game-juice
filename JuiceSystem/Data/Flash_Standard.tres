@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="EffectFlash" load_steps=3 format=3 uid="uid://bcj1enut0oikd"]
+
+[ext_resource type="Script" uid="uid://ch7imsbwuips0" path="res://JuiceSystem/Effects/Effect_Flash.gd" id="1_i80bx"]
+[ext_resource type="Material" uid="uid://buntlnmyxogwx" path="res://JuiceSystem/Mat_WhiteFlash.tres" id="1_w5vgq"]
+
+[resource]
+script = ExtResource("1_i80bx")
+flash_material = ExtResource("1_w5vgq")
+metadata/_custom_type_script = "uid://ch7imsbwuips0"

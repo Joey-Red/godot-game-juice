@@ -38,6 +38,7 @@ folder_colors={
 "res://assets/Donyatsu/": "red",
 "res://assets/KayKit_Skeletons_1.1_FREE/": "yellow",
 "res://assets/PlayerCharacter/": "green",
+"res://assets/Sounds/": "teal",
 "res://assets/Test_Assets/": "gray",
 "res://resources/": "teal"
 }

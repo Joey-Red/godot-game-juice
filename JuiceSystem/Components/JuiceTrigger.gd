@@ -40,6 +40,23 @@ func _on_signal_emitted(_arg1 = null, _arg2 = null, _arg3 = null, _arg4 = null) 
 	
 	trigger_juice(context)
 
+#func trigger_juice(context: Dictionary = {}) -> void:
+	#if profile:
+		#profile.play(get_parent(), context)
+
 func trigger_juice(context: Dictionary = {}) -> void:
 	if profile:
-		profile.play(get_parent(), context)
+		# FIX: The target shouldn't be the component (get_parent()), 
+		# it should be the Scene Root (the Enemy itself).
+		var effect_target = owner
+		
+		# Fallback: If 'owner' is null (happens if spawned via code without set_owner),
+		# we try to go up two levels: Trigger -> Components -> EnemyRoot
+		if not effect_target:
+			effect_target = get_parent().get_parent()
+			
+		# Now we play the effect on the ACTUAL enemy root
+		if effect_target:
+			profile.play(effect_target, context)
+		else:
+			push_warning("JuiceTrigger: Could not find a valid target/owner for effect!")
