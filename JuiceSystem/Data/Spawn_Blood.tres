@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="EffectSpawnScene" load_steps=3 format=3 uid="uid://bplwi3u2lv7ou"]
+
+[ext_resource type="PackedScene" uid="uid://dqgtv3nq6j5di" path="res://JuiceSystem/Prefabs/VFX_Bloodhit.tscn" id="1_ku3j0"]
+[ext_resource type="Script" uid="uid://cgkv8d2a8ajg5" path="res://JuiceSystem/Effects/Effect_SpawnScene.gd" id="1_uio22"]
+
+[resource]
+script = ExtResource("1_uio22")
+prefab = ExtResource("1_ku3j0")
+parent_to_target = null
+random_offset_radius = null
+random_rotation_y = null
+metadata/_custom_type_script = "uid://cgkv8d2a8ajg5"

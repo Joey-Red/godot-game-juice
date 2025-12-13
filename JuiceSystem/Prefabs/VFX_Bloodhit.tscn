@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://dqgtv3nq6j5di"]
+
+[ext_resource type="Script" uid="uid://kn5vcsx8jll4" path="res://JuiceSystem/Prefabs/vfx_bloodhit_cleanup.gd" id="1_cfbql"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_cfbql"]
+direction = Vector3(1, 0, -1)
+initial_velocity_min = 5.0
+initial_velocity_max = 10.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cfbql"]
+albedo_color = Color(0.8745098, 0, 0, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_c7mtl"]
+material = SubResource("StandardMaterial3D_cfbql")
+size = Vector3(0.1, 0.1, 0.1)
+
+[node name="VfxBloodhit" type="GPUParticles3D"]
+emitting = false
+one_shot = true
+explosiveness = 1.0
+process_material = SubResource("ParticleProcessMaterial_cfbql")
+draw_pass_1 = SubResource("BoxMesh_c7mtl")
+script = ExtResource("1_cfbql")
