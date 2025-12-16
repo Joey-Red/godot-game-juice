@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="EffectPunchScale" load_steps=2 format=3 uid="uid://c0keqiqn8gseg"]
+
+[ext_resource type="Script" uid="uid://bjw57aqp105dl" path="res://JuiceSystem/Effects/Effect_PunchScaleUI.gd" id="1_kjicv"]
+
+[resource]
+script = ExtResource("1_kjicv")
+metadata/_custom_type_script = "uid://bjw57aqp105dl"

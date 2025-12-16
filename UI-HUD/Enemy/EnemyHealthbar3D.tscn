@@ -15,7 +15,14 @@ script = ExtResource("1_thnx6")
 transparent_bg = true
 size = Vector2i(200, 40)
 
-[node name="ProgressBar" type="ProgressBar" parent="SubViewport"]
+[node name="GhostBar" type="ProgressBar" parent="SubViewport"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HealthBar" type="ProgressBar" parent="SubViewport"]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
